@@ -3030,7 +3030,7 @@ Wicherts, Jelte M., Denny Borsboom, Judith Kats, and Dylan Molenaar. 2006. <span
       }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
+          var filterRegex = new RegExp("https:\/\/lnnrtwttkhn\.github\.io\/talk-uhh-rdm-2024\/");
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
